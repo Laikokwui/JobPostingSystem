@@ -1,5 +1,15 @@
 # job-posting-system
+This job posting system will allow users to enter details about a job vacancy, and save the information into a text file. These postings can also be searched using various criteria, and all matched postings will be displayed on a web page.
 
+## Setup and Run The Project
+
+1. Download and setup Xampp
+
+2. Put all the file in htdocs folder
+
+3. Start Xampp Apache and MySQL
+
+4. Navigate to localhost on the browser.
 
 ## Screenshots
 
