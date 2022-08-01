@@ -1,0 +1,266 @@
+/*
+Name: lai Kok Wui
+Student ID: 101211447
+Date: 9 October 2020
+*/
+
+/*All*/
+html {
+	margin: 0;
+	padding: 0;
+	background-color: #E6F5F6;
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+  	flex-direction: column;
+}
+
+html, body {
+  height: 100%;
+}
+
+ul li {
+	list-style-type: none;
+	padding: 10px;
+}
+
+ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+  	background-color: #5EDFFF;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+footer {
+	padding: 30px;
+	background-color: #0F4857;
+	flex-shrink: 0;
+	margin-top:100px;
+}
+
+footer ul li {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+footer ul {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article {
+	flex: 1 0 auto;
+}
+
+.error {
+	color: red;
+}
+
+.success {
+	color: green;
+} 
+
+/* Search Job Process */
+header {
+	padding: 50px;
+	color: white;
+	margin-bottom: 100px;
+	background-image: url(style/jobsearch.jpg);
+}
+
+header h1 {
+	padding: 5px;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+.listbox {
+	padding: 15px;
+	background-color: #D3F3F8;
+	color: #216D7A;
+	font-weight: bold;
+	border-top: 10px solid #0E8EAB;
+	border-left: 0.5px solid #0E8EAB;
+	border-right: 0.5px solid #0E8EAB;
+	border-bottom: 0.5px solid #0E8EAB;
+	border-radius: 15px;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+}
+
+.id_and_title {
+	font-size: 28px;
+	margin: 0;
+	padding: 0;
+}
+
+.advanced_info {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+.close_date {
+	color: red;
+	margin: 0;
+	padding: 0;
+}
+
+.job_desc {
+	font-weight: lighter;
+	color: black;
+	margin: 20px;
+	padding: 15px;
+	background-color: #FEF0E6;
+	border: 0.5px solid #8F400A;
+	border-radius: 15px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.job_desc span {
+	font-weight: bold;
+}
+
+/* form general setting */
+fieldset {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #D3F3F8;
+	border-top: 10px solid #0E8EAB;
+	border-left: 0.5px solid #0E8EAB;
+	border-right: 0.5px solid #0E8EAB;
+	border-bottom: 0.5px solid #0E8EAB;
+}
+
+input, textarea {
+	padding: 5px;
+	background-color: #FEF0E6;
+	border: 0.5px solid #8F400A;
+	border-radius: 5px;
+}
+
+.inputgeneral, textarea {
+	width: 50%;
+}
+
+.generalform {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.generalform div {
+	margin-top: 15px;
+	margin-left: 180px;
+	text-align: left;
+}
+
+.labeltitle {
+	font-weight: bold;
+}
+
+.advancedform div {
+	display: inline-block;
+	padding: 15px;
+	background-color: #FEF0E6;
+	border: 0.5px solid #8F400A;
+	border-radius: 15px;
+	text-align: left;
+}
+
+.location {
+	margin-top: 15px;
+	padding: 20px;
+	width: 45%;
+	background-color: #FEF0E6;
+	border: 0.5px solid #8F400A;
+	border-radius: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.location select {
+	padding: 2px;
+	width: 50%;
+	border: 0.5px solid #8F400A;
+	border-radius: 5px;
+}
+
+legend {
+	color: #0E8EAB;
+	font-weight: bold;
+	padding: 10px;
+	margin: 0;
+}
+
+.submitbutton {
+	margin: 15px;
+	text-align: center;
+}
+
+.submitbutton button {
+	width: 200px;
+	font-weight: bold;
+	color: white;
+	padding: 10px;
+	background-color: #4FDB60;
+}
+
+.searchbox input {
+	margin-left:0;
+	width: 50%;
+	border: 0.5px solid #0E8EAB;
+	border-radius: 5px;
+	background-color: #D3F3F8;
+}
+
+/*About Page*/
+.list {
+	text-align: left;
+	color: black;
+	margin: 20px;
+	padding: 15px;
+	background-color: #FEF0E6;
+	border: 0.5px solid #8F400A;
+	border-radius: 15px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.list ul {
+	margin-left: 200px;
+}
+
+.list ul li {
+	list-style: circle;
+}
+
+/* index.php style */
+.homeinfo {
+	text-align: left;
+	color: black;
+	margin: 20px;
+	padding: 15px;
+	background-color: #FEF0E6;
+	border: 0.5px solid #8F400A;
+	border-radius: 15px;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
